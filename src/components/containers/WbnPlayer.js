@@ -5,8 +5,8 @@ import Playlist from '../containers/Playlist';
 const WbnPlayer = props => {
     return (
         <>
-        <Video/>>
-        <Playlist/>>
+        <Video/>
+        <Playlist/>
         </>
     )
 }

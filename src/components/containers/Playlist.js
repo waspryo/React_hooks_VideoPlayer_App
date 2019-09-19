@@ -5,9 +5,9 @@ import Nightmode from "../Nightmode";
 
 const Playlist = props => (
   <>
-    <Nightmode />>
-    <PlaylistHeader />>
-    <PlaylistItems />>
+    <Nightmode />
+    <PlaylistHeader />
+    <PlaylistItems />
   </>
 );
 
