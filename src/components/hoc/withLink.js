@@ -13,6 +13,6 @@ const withLink = WrappedComponent => props => {
             )
         }
     }
-    return <WrappedComponent { ...props } />
+    return <WrappedComponent { ...newProps } />
 }
 export default withLink;
