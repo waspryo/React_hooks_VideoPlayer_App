@@ -82,4 +82,4 @@ const WbnPlayer = ({ match, history, location }) => {
   );
 };
 
-export default WbnPlayer;
+export default WbnPlayer; 
