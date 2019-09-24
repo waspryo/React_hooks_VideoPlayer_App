@@ -81,17 +81,37 @@ const WbnPlayer = props => {
     });
   };
 
-  const progresCallback = () => {};
+  const progressCallback = e => {
+    if(e.playedSeconds > 10 && e.playedSeconds < 11) {
+      const videos = [...state.videos];
+      const playedVideo = videos.find(
+        video => video.id === state.activeVideo.id
+      )
+      playedVideo.played = true;
+
+      setState(prevState => ({ ...prevState, videos }));
+
+      // setState({
+      //   ...state,
+      //   videos: state.videos.map( element => {
+      //     return element.id === state.activeVideo.id
+      //     ? { ...element, played: true }
+      //     : element;
+      //   })
+      // });
+    }
+  };
 
   return (
     <ThemeProvider theme={state.nightMode ? theme : themeLight}>
       {state.videos !== null ? (
         <StyledWbnPlayer>
+          {console.log(state)}
           <Video
             active={state.activeVideo}
             autoplay={state.autoplay}
             endCallback={endCallback}
-            progressCallback={progresCallback}
+            progressCallback={progressCallback}
           />
           <Playlist
             videos={state.videos}
@@ -105,4 +125,4 @@ const WbnPlayer = props => {
   );
 };
 
-export default WbnPlayer; 
+export default WbnPlayer;
