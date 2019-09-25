@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import GlobalStyle from '../styles/GlobalStyle'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/react_videoplayer/">
     <Switch>
       <Route exact path="/" component={WbnPlayer}/>
       <Route exact path="/:activeVideo" component={WbnPlayer}/>
