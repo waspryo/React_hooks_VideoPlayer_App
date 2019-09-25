@@ -36,6 +36,13 @@ const WbnPlayer = props => {
     autoplay: false,
   });
 
+  useEffect(
+    () => {
+      localStorage.setItem(`${state.playlistId}`, JSON.stringify({...state}));
+    },
+    [state] 
+  ) 
+
   useEffect(() => {
     console.log('test');
     const videoId = props.match.params.activeVideo;
