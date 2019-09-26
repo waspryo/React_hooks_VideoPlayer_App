@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react_videoplayer/static/js/main.11178b68.chunk.js",
-    "main.js.map": "/react_videoplayer/static/js/main.11178b68.chunk.js.map",
-    "runtime~main.js": "/react_videoplayer/static/js/runtime~main.08c55151.js",
-    "runtime~main.js.map": "/react_videoplayer/static/js/runtime~main.08c55151.js.map",
-    "static/js/2.fdb6107a.chunk.js": "/react_videoplayer/static/js/2.fdb6107a.chunk.js",
-    "static/js/2.fdb6107a.chunk.js.map": "/react_videoplayer/static/js/2.fdb6107a.chunk.js.map",
-    "index.html": "/react_videoplayer/index.html",
-    "precache-manifest.a09553ae1ad2bf116c79b5ae70400fb5.js": "/react_videoplayer/precache-manifest.a09553ae1ad2bf116c79b5ae70400fb5.js",
-    "service-worker.js": "/react_videoplayer/service-worker.js"
+    "main.js": "/react-hooks-videoplayer-START/static/js/main.b543c565.chunk.js",
+    "main.js.map": "/react-hooks-videoplayer-START/static/js/main.b543c565.chunk.js.map",
+    "runtime~main.js": "/react-hooks-videoplayer-START/static/js/runtime~main.eba22959.js",
+    "runtime~main.js.map": "/react-hooks-videoplayer-START/static/js/runtime~main.eba22959.js.map",
+    "static/js/2.95395963.chunk.js": "/react-hooks-videoplayer-START/static/js/2.95395963.chunk.js",
+    "static/js/2.95395963.chunk.js.map": "/react-hooks-videoplayer-START/static/js/2.95395963.chunk.js.map",
+    "index.html": "/react-hooks-videoplayer-START/index.html",
+    "precache-manifest.9327f7f9e8c91b0638be2e54d3fbca89.js": "/react-hooks-videoplayer-START/precache-manifest.9327f7f9e8c91b0638be2e54d3fbca89.js",
+    "service-worker.js": "/react-hooks-videoplayer-START/service-worker.js"
   }
 }
